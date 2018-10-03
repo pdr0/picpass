@@ -1,0 +1,29 @@
+{
+  "name": "picpass",
+  "version": "1.0.0",
+  "description": "Generate password from a provided image",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdr0/picpass.git"
+  },
+  "author": "Pedro Selas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdr0/picpass/issues"
+  },
+  "homepage": "https://github.com/pdr0/picpass#readme",
+  "dependencies": {
+    "image-parser": "^1.2.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
